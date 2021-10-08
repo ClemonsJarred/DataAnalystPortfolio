@@ -70,7 +70,7 @@ GENERAL SURGERIES	Hernia
 ----------------------------------------------------------------------
   SELECT p.PetID, p.Name, pd.ProcedureType, pd.Description  
   from [Vet_Clinic].[dbo].[P9-Pets] as p
-  LEFT JOIN [Vet_Clinic].[dbo].[P9-ProceduresHistory] as ph --LEFT NOR INNER JOIN WORKS
+  LEFT JOIN [Vet_Clinic].[dbo].[P9-ProceduresHistory] as ph --LEFT OR INNER JOIN WORKS
   ON ph.PetID = p.PetID
   LEFT JOIN [Vet_Clinic].[dbo].[P9-ProceduresDetails] as pd
   ON pd.ProcedureType = ph.ProcedureType
