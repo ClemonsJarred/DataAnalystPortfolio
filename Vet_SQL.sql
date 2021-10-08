@@ -19,14 +19,14 @@ SELECT TOP (1000) [OwnerID]
   ORDER BY p.Name;
   /*---Sample Results---*/
 /*PetName	Owner_FirstName	Surname
-Angel		Lee			McKenzie
-Antigone	Julia		Gowan
-Bandit		William		Tea
-Bandit		Robert		Partridge
-Bandit		Jeffrey		Moore
+Angel		      Lee		McKenzie
+Antigone	      Julia		Gowan
+Bandit		William	Tea
+Bandit		Robert	Partridge
+Bandit		Jeffrey	Moore
 Biscuit		Mary		Hurtado
-Biscuit		Connie		Pauley
-Biscuit		Bessie		Yen*/
+Biscuit		Connie	Pauley
+Biscuit		Bessie	Yen*/
 
 --2. Which pets from this clinic had procedures performed?
 ----------------------------------------------------------------------
@@ -78,7 +78,7 @@ GENERAL SURGERIES	Hernia
   ORDER BY p.Name;
    /*---Sample Results---*/
   /*
-  PetID	Name	ProcedureType	Description
+  PetID	Name	      ProcedureType	Description
 H2-8586	Antigone	VACCINATIONS	Galaxie (DHLPP)
 H2-8586	Antigone	VACCINATIONS	Leukemia
 H2-8586	Antigone	VACCINATIONS	Lyme
@@ -111,22 +111,22 @@ U8-6473	Biscuit	VACCINATIONS	PCR*/
   WHERE ph.ProcedureType is not NULL;
   /*---Sample Results---*/
   /*
-  OwnerName			ProcedureType	Description			Price	TotalPrice
-Jessica Velazquez	VACCINATIONS	Galaxie (DHLPP)		15.00	125.00
-Jessica Velazquez	VACCINATIONS	Leukemia			20.00	125.00
-Jessica Velazquez	VACCINATIONS	Lyme				15.00	125.00
-Jessica Velazquez	VACCINATIONS	PCR					15.00	125.00
-Jessica Velazquez	VACCINATIONS	Rabies				10.00	125.00
-Jessica Velazquez	VACCINATIONS	Bordetella			10.00	125.00
-Jessica Velazquez	GROOMING		Bath				15.00	125.00
-Jessica Velazquez	GROOMING		Flea Dip			15.00	125.00
-Jessica Velazquez	GROOMING		Flea Spray			10.00	125.00
-Joseph Blow			VACCINATIONS	Galaxie (DHLPP)		15.00	85.00
-Joseph Blow			VACCINATIONS	Leukemia			20.00	85.00
-Joseph Blow			VACCINATIONS	Lyme				15.00	85.00
-Joseph Blow			VACCINATIONS	PCR					15.00	85.00
-Joseph Blow			VACCINATIONS	Rabies				10.00	85.00
-Joseph Blow			VACCINATIONS	Bordetella			10.00	85.00
-Carolyn Crane		VACCINATIONS	Galaxie (DHLPP)		15.00	85.00
-Carolyn Crane		VACCINATIONS	Leukemia			20.00	85.00
+  OwnerName			ProcedureType	Description			Price	      TotalPrice
+Jessica Velazquez	      VACCINATIONS	Galaxie (DHLPP)		15.00	      125.00
+Jessica Velazquez	      VACCINATIONS	Leukemia			20.00	      125.00
+Jessica Velazquez	      VACCINATIONS	Lyme				15.00	      125.00
+Jessica Velazquez	      VACCINATIONS	PCR				15.00	      125.00
+Jessica Velazquez	      VACCINATIONS	Rabies			10.00	      125.00
+Jessica Velazquez	      VACCINATIONS	Bordetella			10.00	      125.00
+Jessica Velazquez	      GROOMING		Bath				15.00	      125.00
+Jessica Velazquez	      GROOMING		Flea Dip			15.00	      125.00
+Jessica Velazquez	      GROOMING		Flea Spray			10.00	      125.00
+Joseph Blow			VACCINATIONS	Galaxie (DHLPP)		15.00	      85.00
+Joseph Blow			VACCINATIONS	Leukemia			20.00	      85.00
+Joseph Blow			VACCINATIONS	Lyme				15.00	      85.00
+Joseph Blow			VACCINATIONS	PCR				15.00	      85.00
+Joseph Blow			VACCINATIONS	Rabies			10.00	      85.00
+Joseph Blow			VACCINATIONS	Bordetella			10.00	      85.00
+Carolyn Crane		VACCINATIONS	Galaxie (DHLPP)		15.00	      85.00
+Carolyn Crane		VACCINATIONS	Leukemia			20.00	      85.00
 */
