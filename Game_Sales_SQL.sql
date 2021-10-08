@@ -41,15 +41,15 @@ SELECT TOP (10) [Rank]
   WHERE Name is not NULL
     /*Sample Results*/
   /*
-  Name	Abbr_Publisher
-.hack//G.U. Vol.1//Rebirth	NAMC
-.hack//G.U. Vol.2//Reminisce	NAMC
-.hack//G.U. Vol.2//Reminisce (jp sales)	NAMC
-.hack//G.U. Vol.3//Redemption	NAMC
-.hack//Infection Part 1	ATAR
-.hack//Link	NAMC
-.hack//Mutation Part 2	ATAR
-.hack//Outbreak Part 3	ATAR
+  Name						Abbr_Publisher
+.hack//G.U. Vol.1//Rebirth			NAMC
+.hack//G.U. Vol.2//Reminisce			NAMC
+.hack//G.U. Vol.2//Reminisce (jp sales)		NAMC
+.hack//G.U. Vol.3//Redemption			NAMC
+.hack//Infection Part 1				ATAR
+.hack//Link					NAMC
+.hack//Mutation Part 2				ATAR
+.hack//Outbreak Part 3				ATAR
 .hack//Quarantine Part 4: The Final Chapter	ATAR
   */
 
@@ -82,16 +82,16 @@ SELECT TOP (10) [Rank]
   From JP_RPG_ROC
   Order By Year
   /* Sample Result*/
-/*Year	Annual_ttl	prev_ttl	annual_change
-	1986	1.56	0		NULL
-	1987	12.54	1.56	10.98
-	1988	17.34	12.54	4.8
-	1989	6.6		17.34	-10.74
-	1990	13.26	6.6		6.66
-	1991	8.43	13.26	-4.83
-	1992	20.49	8.43	12.06
-	1993	15.75	20.49	-4.74
-	1994	18.69	15.75	2.94
+/*	Year	Annual_ttl	prev_ttl	annual_change
+	1986	1.56		0		NULL
+	1987	12.54		1.56		10.98
+	1988	17.34		12.54		4.8
+	1989	6.6		17.34		-10.74
+	1990	13.26		6.6		6.66
+	1991	8.43		13.26		-4.83
+	1992	20.49		8.43		12.06
+	1993	15.75		20.49		-4.74
+	1994	18.69		15.75		2.94
 */
   
   
