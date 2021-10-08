@@ -78,7 +78,7 @@ Faker			Korean		160.42559
 dota2ti_ru		Russian		107.80888
 UNLOSTV			Turkish		79.90448
 Squeezie		French		72.83177
-MontanaBlack88	German		43.47254
+MontanaBlack88		German		43.47254
 NOBRU			Portuguese	40.66206
 GarenaTW		Chinese		34.0452
 ixxYjYxxi		Arabic		23.12178
@@ -87,11 +87,11 @@ ilMasseo		Italian		6.7105
 RiotGamesJP		Japanese	5.90158
 WeAreTheVR		Hungarian	5.44261
 Herdyn			Czech		3.34312
-Esports_AllianceThai		3.27074
-resttpowered	Slovak		1.71407
-OfficialAndyPyroFinnish		1.2242
+Esports_Alliance	Thai		3.27074
+resttpowered		Slovak		1.71407
+OfficialAndyPyro	Finnish		1.2242
 CyrusTWO		Swedish		0.76292
-Pun1shers_TV	Greek		0.68304
+Pun1shers_TV		Greek		0.68304
 LigaPro1		Other		0.13814
 */
 	
