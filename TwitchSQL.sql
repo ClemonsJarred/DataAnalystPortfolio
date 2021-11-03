@@ -1,3 +1,22 @@
+   /**This project contains a selection of statements that query data from overall Twitch streaming data.
+   Twitch is an interactive livestreaming service for content spanning gaming, entertainment, sports and music.
+   The data covers how much time viewers watch a channel's content, how many followers a channel has, as well as other factors. 
+   Most of the data is numeric.
+   
+   No present chalenges with the data.
+   
+   Tasks/Queries:
+   1. Find average, maximum and minimum for the average viewers
+   2. Which streamer received the highest overall watch time?
+   3. Find the twitch streamers who may have explicit names (uses "xxx")
+   4. Categorize Twitch streamers by language
+   5. Given our subset, how many Languages are being streamed on Twitch? 
+   6. Who has the overall best performance channel per language? (Best Performance = (Followers + Average Viewers)/ Stream Time) Separte ties with followers gained.
+   **/
+   
+   
+   
+   
    /****** Script for SelectTopNRows command from SSMS  ******/
 SELECT TOP (10) [Channel]
       ,[Watch time(Minutes)]
