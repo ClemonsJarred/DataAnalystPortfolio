@@ -1,3 +1,18 @@
+/** This project is a collection of querying scripts that pulls data from Video Game sales over 
+several regions: North American Sales, European Sales, Japanese Sales and [Other Regional Sales].
+
+Challenges: not having a global sales metric and some missing data in the Publisher & Year category.
+
+Tasks/Queries:
+1. What % of  global sales were in Noth America?
+2. Extract a VIEW of the console game titles ordered by platform name in asc order and year of release in desc order
+3. For each game title extract and abbreviate the publisher by first 4 letters
+4. Show the rolling sum in Role-playing games (Genre category) overtime in Japan
+5. Show the rate of change in Role-playing games overtime in Japan
+6. From the years where the sales were less than the previous year, rank the top 3 years where the dip was greatest  **/
+
+
+
 /****** Script for SelectTopNRows command from SSMS  ******/
 SELECT TOP (10) [Rank]
       ,[Name]
