@@ -1,3 +1,23 @@
+/**
+This project assumes I am the analyst for a veternary. The company marketing team has a few questions regarding the data,
+which ranges from the pet name and vaccinations to owner's name and their address. My tasks are to answer and provide spreadsheets
+based on the requested information. This project has separate tables for the pet's information table, general procedure table, owner information table,
+and lastly procedures per pet table.
+
+No present challenges with the data.
+
+Tasks/Queries:
+
+1. Extract Information on Pets names and Owners names side-by-side
+2. Which pets from this clinic had procedures performed?
+3. Make a list of all procedures matched with their descriptions
+4. Match all Pets to their procedure history
+5. Extract a table that shows Owner, procedures and total cost per procedure.
+
+**/
+
+
+
 /****** Script for SelectTopNRows command from SSMS  ******/
 SELECT TOP (1000) [OwnerID]
       ,[Name]
