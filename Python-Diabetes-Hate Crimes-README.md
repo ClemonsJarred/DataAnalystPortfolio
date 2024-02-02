@@ -1,5 +1,4 @@
 # DataAnalystPortfolio
-JClemons
 This read me specifically addresses: Diabetes & Hate Crimes Jupyter Notebook projects.
 ### Diabetes
 An analysis of the reported health metrics that relate to the probability of a diabetes diagnosis. I utilized Pandas to clean the data. 
