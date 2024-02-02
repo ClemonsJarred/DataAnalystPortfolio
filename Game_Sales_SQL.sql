@@ -1,4 +1,6 @@
-/** This project is a collection of querying scripts that pulls data from Video Game sales over 
+/** 
+JClemons
+This project is a collection of querying scripts that pulls data from Video Game sales over 
 several regions: North American Sales, European Sales, Japanese Sales and [Other Regional Sales].
 
 Challenges: not having a global sales metric and some missing data in the Publisher & Year category.
