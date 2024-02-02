@@ -1,5 +1,5 @@
 /**
-JBC2023
+JClemons
 This project assumes I am the analyst for a veternary. The company marketing team has a few questions regarding the data,
 which ranges from the pet name and vaccinations to owner's name and their address. My tasks are to answer and provide spreadsheets
 based on the requested information. This project has separate tables for the pet's information table, general procedure table, owner information table,
