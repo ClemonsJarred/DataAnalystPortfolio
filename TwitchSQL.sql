@@ -1,4 +1,7 @@
-   /**This project contains a selection of statements that query data from overall Twitch streaming data.
+
+/**
+JClemons
+This project contains a selection of statements that query data from overall Twitch streaming data.
    Twitch is an interactive livestreaming service for content spanning gaming, entertainment, sports and music.
    The data covers how much time viewers watch a channel's content, how many followers a channel has, as well as other factors. 
    Most of the data is numeric.
